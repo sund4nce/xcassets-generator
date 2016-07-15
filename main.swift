@@ -1,6 +1,6 @@
 #!/usr/bin/swift
 
-//.xcassets Generator - Florian Ernst 2016
+//.xcassets Generator 
 
 import Foundation
 ‚
@@ -49,7 +49,7 @@ func infoJson() -> NSData {
     let json = [
         "info": [
             "version": 1,
-            "author": "mySugr"
+            "author": "mort3m"
         ]
     ]
     return try! NSJSONSerialization.dataWithJSONObject(json, options: .PrettyPrinted)
@@ -86,7 +86,7 @@ func generateJSON(dir: String) -> NSData? {
         json["images"] = imagesJson
         json["info"] = [
             "version" : 1,
-            "author" : "mySugr"
+            "author" : "mort3m"
         ]
         
         return try NSJSONSerialization.dataWithJSONObject(json, options: .PrettyPrinted)
