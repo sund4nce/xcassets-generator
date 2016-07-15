@@ -7,5 +7,5 @@ swift script (🚀) for generating or merging .xcassets from a directory
 
 # usage
 ```
-./main.swift \"dir\" \".xcasset file\""
+./main.swift <dir> <.xcassets file> 
 ```
