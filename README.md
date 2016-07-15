@@ -2,10 +2,10 @@
 swift script (🚀) for generating or merging .xcassets from a directory
 
 # installation
-* download main.swift
+* download
 * chmod +x main.swift
 
 # usage
 ```
-./main.swift <dir> <.xcassets file> 
+./main.swift <dir> <.xcassets file>
 ```
